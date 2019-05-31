@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "MobilitySDK"
-s.version      = "0.0.1"
+s.version      = "1.0.5"
 s.summary      = "Mobility iOS SDK"
 s.description  = <<-DESC
     A Mobility solution
@@ -19,7 +19,7 @@ LICENSE
 s.author             = { "fmcmorrow" => "" }
 s.platform     = :ios
 s.platform     = :ios, "9.0"
-s.source       = { :git => "https://github.com/cartrawler/mobility-sdk-pods", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/fmcmorrow/mobility-framework", :tag => "#{s.version}" }
 
 s.ios.vendored_frameworks = 'MobilitySDK.framework'
 
