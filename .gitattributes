@@ -1,0 +1,4 @@
+*.framework filter=lfs diff=lfs merge=lfs -text
+CTNSDK filter=lfs diff=lfs merge=lfs -text
+CTNSDKfedfgd filter=lfs diff=lfs merge=lfs -text
+MobilitySDK filter=lfs diff=lfs merge=lfs -text
