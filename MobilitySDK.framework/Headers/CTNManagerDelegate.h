@@ -6,7 +6,7 @@
  * Copyright © 2016 CarTrawler. All rights reserved.
  */
 
-@class CTNViewController;
+@class MobilityViewController;
 
 typedef NS_ENUM(NSInteger, CTNViewCloseReason) {
   CTNViewCloseReasonUserRequest = 0,

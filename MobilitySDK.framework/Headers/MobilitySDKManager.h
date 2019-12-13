@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 
-@class CTNViewController;
+@class MobilityViewController;
 @protocol CTNManagerDelegate;
 
 @interface MobilitySDKManager : NSObject
@@ -22,9 +22,11 @@
 
 - (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId;
 
+- (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId devMode:(BOOL)devMode;
+
 - (UIView *)getMobilitySdkView;
 
-- (CTNViewController *)getMobilitySdkView:(NSDictionary *)initialProperties;
+- (MobilityViewController *)getMobilitySdkView:(NSDictionary *)initialProperties;
 
 // Required to register for notifications
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings;
