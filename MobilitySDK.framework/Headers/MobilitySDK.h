@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 #import <MobilitySDK/MobilitySDKManager.h>
-#import <MobilitySDK/CTNManagerDelegate.h>
-#import <MobilitySDK/CTNViewController.h>
+#import <MobilitySDK/MobilityDelegate.h>
+#import <MobilitySDK/MobilityViewController.h>
 #import <MobilitySDK/MobilityEvents.h>
-#import <MobilitySDK/CTNData.h>
-#import <MobilitySDK/CTNUser.h>
-#import <MobilitySDK/CTNCard.h>

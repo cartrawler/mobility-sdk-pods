@@ -13,7 +13,7 @@
 
 - (instancetype)initWithModuleName:(NSString *)moduleName
                  initialProperties:(NSDictionary *)initialProperties;
-
+    
 @end
 
 

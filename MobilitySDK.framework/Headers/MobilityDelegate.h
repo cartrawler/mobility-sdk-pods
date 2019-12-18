@@ -12,14 +12,17 @@ typedef NS_ENUM(NSInteger, CTNViewCloseReason) {
   CTNViewCloseReasonUserRequest = 0,
 };
 
-@protocol CTNManagerDelegate <NSObject>
+@protocol MobilityDelegate <NSObject>
+
+- (void)shouldCloseMobilityApp;
+- (void)shouldOpenMobilityApp;
 
 @optional
 
-- (void)didLoadCTNView;
-- (void)didFailToLoadCTNView;
+- (void)didLoadMobilityView;
+- (void)didFailToLoadMobilityView;
 
-- (void)shouldCloseCTNViewWithReason:(CTNViewCloseReason)reason;
-- (void)shouldOpenCTNViewWithReason:(CTNViewCloseReason)reason;
+
+
     
 @end

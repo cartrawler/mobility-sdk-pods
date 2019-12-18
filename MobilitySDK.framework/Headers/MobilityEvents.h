@@ -23,16 +23,14 @@
 }
 
 typedef enum {
-    CTNArrival,
-    CTNDeparture
+    MobilityArrival,
+    MobilityDeparture
 } CTNArrivalOrDeparture;
 
 typedef enum {
-    CTNInbound,
-    CTNOutbound
+    MobilityInbound,
+    MobilityOutbound
 } CTNInboundOrOutbound;
-
-// Define class properties here with @property
 
 - (void) updateUserPreferences:(NSString *)currency
                       language:(NSString *)language;
