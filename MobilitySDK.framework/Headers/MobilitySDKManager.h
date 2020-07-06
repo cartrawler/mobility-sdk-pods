@@ -8,20 +8,30 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#import "Environments.h"
 
 @class MobilityViewController;
+@class DeeplinkDataManager;
+@class MobilitySwiftEvents;
 @protocol MobilityDelegate;
 
 @interface MobilitySDKManager : NSObject
 
-@property(nonatomic, weak) id<MobilityDelegate> delegate;
+@property(nonatomic, strong) id<MobilityDelegate> delegate;
 
 + (instancetype)sharedManager;
 - (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId;
-- (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId devMode:(BOOL)devMode;
+- (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId environment:(EnvironmentEnum)environment;
 - (void)closeSdkView;
 - (UIView *)getMobilitySdkView;
 - (MobilityViewController *)getMobilitySdkView:(NSDictionary *)initialProperties;
-
+- (void)setLocale:(NSString *)locale;
+- (void)setPushToken:(NSString *)pushToken;
+- (void)setPNR:(NSString *)PNR;
+- (void)addFlight:(NSString *)originIATA destinationIATA:(NSString *)destinationIATA flightNumber:(NSString *)flightNumber flightDate:(NSString *)flightDate;
+- (void)openMobility:(UIViewController *)vc type:(NSString *)type source:(NSString *)source campaign:(NSString *)campaign medium:(NSString *)medium;
+- (void)showMobilityFromNotification:(UIViewController *)vc userInfo:(NSDictionary *)userInfo;
+- (void)showBackButton:(BOOL)showBackButton;
+- (BOOL)isNotificationOriginMobility:(NSDictionary *)userInfo;
+- (void)setAppLink:(NSURL *)url;
 @end

@@ -18,6 +18,10 @@
 #elif __has_include("Models/CTNCard.h")
 #import "Models/CTNCard.h"
 #endif
+
+@class Flight;
+@class UTM;
+
 @interface MobilityEvents: NSObject {
 
 }
@@ -32,21 +36,10 @@ typedef enum {
     MobilityOutbound
 } CTNInboundOrOutbound;
 
-- (void) updateUserPreferences:(NSString *)currency
-                      language:(NSString *)language;
-
-- (void) updateUserProfile:(NSString *)userMobile
-                            firstName:(NSString *)firstName
-                             lastName:(NSString *)lastName
-                                email:(NSString *)email;
-
-- (void) updatePartnerProgramWithToken:(NSString *)token;
-
-- (void) updatePartnerProgram:(NSString *)userName
-                     password:(NSString *)password;
-
-- (void) updatePartnerProgram:(NSString *)userName;
-
-
++ (instancetype)sharedManager;
+- (void) setLocale:(NSString *)locale;
+- (void) setPushToken:(NSString *)pushToken;
+- (void) setDeeplinkDataWithType:(NSString *)type PNR:(NSString *)PNR flights:(NSArray<Flight *> *)flights UTM:(UTM *)UTM;
+- (void) setAppLinkData:(NSString *)code state:(NSString *)state error:(NSString *)error;
 @end
 

@@ -4,3 +4,8 @@ framework module MobilitySDK {
   export *
   module * { export * }
 }
+
+module MobilitySDK.Swift {
+    header "MobilitySDK-Swift.h"
+    requires objc
+}
