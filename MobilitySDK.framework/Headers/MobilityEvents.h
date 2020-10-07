@@ -41,5 +41,7 @@ typedef enum {
 - (void) setPushToken:(NSString *)pushToken;
 - (void) setDeeplinkDataWithType:(NSString *)type PNR:(NSString *)PNR flights:(NSArray<Flight *> *)flights UTM:(UTM *)UTM;
 - (void) setAppLinkData:(NSString *)code state:(NSString *)state error:(NSString *)error;
+- (void) setUserData:(NSString *)firstName lastName:(NSString *)lastName email:(NSString *)email mobileNumber:(NSString *)mobileNumber;
+- (void) resetUserData;
 @end
 
