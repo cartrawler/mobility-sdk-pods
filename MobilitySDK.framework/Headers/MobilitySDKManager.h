@@ -34,7 +34,4 @@
 - (void)showBackButton:(BOOL)showBackButton;
 - (BOOL)isNotificationOriginMobility:(NSDictionary *)userInfo;
 - (void)setAppLink:(NSURL *)url;
-- (void) killMobility;
-- (void)setUserData:(NSString*)firstName lastName:(NSString*)lastName email:(NSString*)email mobileNumber:(NSString*)mobileNumber;
-- (void) resetUserData;
 @end
