@@ -1,0 +1,26 @@
+{
+  "development": {
+    "serverUrl": "https://neo-staging.cartrawler.com",
+    "websocketUrl": "wss://neo-staging.cartrawler.com/neows/v1/WS/order-events/",
+    "environment": "DEV",
+    "version": "2.0.0",
+    "paymentDetailsFormUrl": "https://external-dev.cartrawler.com/cartrawlerpay/paymenttokenform",
+    "fcmSenderId": "525612144179"
+  },
+  "staging": {
+    "serverUrl": "https://neo-staging.cartrawler.com",
+    "websocketUrl": "wss://neo-staging.cartrawler.com/neows/v1/WS/order-events/",
+    "environment": "DEMO",
+    "version": "2.0.0",
+    "paymentDetailsFormUrl": "https://external-dev.cartrawler.com/cartrawlerpay/paymenttokenform",
+    "fcmSenderId": "525612144179"
+  },
+  "production": {
+    "serverUrl": "https://neows.cartrawler.com",
+    "websocketUrl": "wss://neows.cartrawler.com/neows/v1/WS/order-events/",
+    "environment": "PROD",
+    "version": "2.0.0",
+    "paymentDetailsFormUrl": "https://otasecure.cartrawler.com/cartrawlerpay/paymenttokenform",
+    "fcmSenderId": "525612144179"
+  }
+}
