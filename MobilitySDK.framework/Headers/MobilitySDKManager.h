@@ -13,6 +13,8 @@
 @class MobilityViewController;
 @class DeeplinkDataManager;
 @class MobilitySwiftEvents;
+@class RequestHandler;
+
 @protocol MobilityDelegate;
 
 @interface MobilitySDKManager : NSObject
