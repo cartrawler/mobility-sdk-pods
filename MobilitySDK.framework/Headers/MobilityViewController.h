@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@class RCTBridge;
+
 @interface MobilityViewController : UIViewController
 
-- (instancetype)initWithModuleName:(NSString *)moduleName
-                 initialProperties:(NSDictionary *)initialProperties;
-    
+- (instancetype)initWithBridge:(RCTBridge *)bridge;
+
 @end
 
 

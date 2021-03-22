@@ -25,10 +25,9 @@
 - (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId;
 - (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId environment:(EnvironmentEnum)environment;
 - (void)closeSdkView;
-- (UIView *)getMobilitySdkView;
-- (MobilityViewController *)getMobilitySdkView:(NSDictionary *)initialProperties;
 - (void)setLocale:(NSString *)locale;
 - (void)setPushToken:(NSString *)pushToken;
+- (void)setUserToken:(NSString *)userToken;
 - (void)setPNR:(NSString *)PNR;
 - (void)addFlight:(NSString *)originIATA destinationIATA:(NSString *)destinationIATA flightNumber:(NSString *)flightNumber flightDepartureDate:(NSString *)flightDepartureDate flightArrivalDate:(NSString *)flightArrivalDate originAirportName:(NSString *)originAirportName destinationAirportName:(NSString *)destinationAirportName;
 - (void)addFlight:(NSString *)originIATA destinationIATA:(NSString *)destinationIATA flightNumber:(NSString *)flightNumber flightDate:(NSString *)flightDate __attribute__((deprecated));
