@@ -39,6 +39,7 @@ typedef enum {
 + (instancetype)sharedManager;
 - (void) setLocale:(NSString *)locale;
 - (void) setPushToken:(NSString *)pushToken;
+- (void) setUserToken:(NSString *)userToken;
 - (void) setDeeplinkDataWithType:(NSString *)type PNR:(NSString *)PNR flights:(NSArray<Flight *> *)flights UTM:(UTM *)UTM;
 - (void) setAppLinkData:(NSString *)code state:(NSString *)state error:(NSString *)error;
 - (void) setUserData:(NSString *)firstName lastName:(NSString *)lastName email:(NSString *)email mobileNumber:(NSString *)mobileNumber;
