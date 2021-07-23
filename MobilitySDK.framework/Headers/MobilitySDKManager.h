@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "Environments.h"
+#import "TripType.h"
+#import "DeeplinkDirection.h"
 
 @class MobilityViewController;
 @class DeeplinkDataManager;
@@ -29,9 +31,11 @@
 - (void)setPushToken:(NSString *)pushToken;
 - (void)setUserToken:(NSString *)userToken;
 - (void)resetUserToken;
-- (void)setPNR:(NSString *)PNR;
-- (void)addFlight:(NSString *)originIATA destinationIATA:(NSString *)destinationIATA flightNumber:(NSString *)flightNumber flightDepartureDate:(NSString *)flightDepartureDate flightArrivalDate:(NSString *)flightArrivalDate originAirportName:(NSString *)originAirportName destinationAirportName:(NSString *)destinationAirportName;
-- (void)addFlight:(NSString *)originIATA destinationIATA:(NSString *)destinationIATA flightNumber:(NSString *)flightNumber flightDate:(NSString *)flightDate __attribute__((deprecated));
+- (void)addFlight:(NSString *)originIATA destinationIATA:(NSString *)destinationIATA flightNumber:(NSString *)flightNumber flightDepartureDate:(NSString *)flightDepartureDate flightArrivalDate:(NSString *)flightArrivalDate originAirportName:(NSString *)originAirportName destinationAirportName:(NSString *)destinationAirportName direction:(DeeplinkDirectionEnum)direction;
+- (void)setMobilityBookingId:(NSString *)mobilityBookingId;
+- (void)setBookingReference:(NSString *)bookingReference;
+- (void)setTripType:(TripTypeEnum)tripType;
+- (void)setPassengers:(NSInteger)adults children:(NSInteger)children infants:(NSInteger)infants;
 - (void)openMobility:(UIViewController *)vc type:(NSString *)type source:(NSString *)source campaign:(NSString *)campaign medium:(NSString *)medium;
 - (void)showMobilityFromNotification:(UIViewController *)vc userInfo:(NSDictionary *)userInfo;
 - (void)showBackButton:(BOOL)showBackButton;
