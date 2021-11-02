@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "MobilitySDK"
-s.version      = "0.4.test."
+s.version      = "0.4.test"
 s.summary      = "Mobility iOS SDK"
 s.description  = <<-DESC
     A Mobility solution
