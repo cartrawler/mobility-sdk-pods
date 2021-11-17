@@ -14,11 +14,14 @@ typedef NS_ENUM(NSInteger, CTNViewCloseReason) {
 
 @protocol MobilityDelegate <NSObject>
 
-- (void)shouldCloseMobilityApp;
-- (void)shouldOpenMobilityApp;
+- (void)shouldHideMobilityApp;
+- (void)shouldShowMobilityApp;
 
 @optional
 
+
+- (void)shouldCloseMobilityApp DEPRECATED_MSG_ATTRIBUTE("Use shouldHideMobilityApp instead.");
+- (void)shouldOpenMobilityApp DEPRECATED_MSG_ATTRIBUTE("Use shouldShowMobilityApp instead.");
 - (void)didLoadMobilityJs;
 - (void)didFailToLoadMobilityJs;
 
