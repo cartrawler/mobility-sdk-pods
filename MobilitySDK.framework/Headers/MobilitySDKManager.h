@@ -36,7 +36,8 @@
 - (void)setBookingReference:(NSString *)bookingReference;
 - (void)setTripType:(TripTypeEnum)tripType;
 - (void)setPassengers:(NSInteger)adults children:(NSInteger)children infants:(NSInteger)infants;
-- (void)openMobility:(UIViewController *)vc type:(NSString *)type source:(NSString *)source campaign:(NSString *)campaign medium:(NSString *)medium;
+- (void)openMobility:(UIViewController *)vc type:(NSString *)type source:(NSString *)source campaign:(NSString *)campaign medium:(NSString *)medium DEPRECATED_MSG_ATTRIBUTE("Use showMobility instead.");
+- (void)showMobility:(UIViewController *)vc type:(NSString *)type source:(NSString *)source campaign:(NSString *)campaign medium:(NSString *)medium;
 - (void)showMobilityFromNotification:(UIViewController *)vc userInfo:(NSDictionary *)userInfo;
 - (void)showBackButton:(BOOL)showBackButton;
 - (BOOL)isNotificationOriginMobility:(NSDictionary *)userInfo;
