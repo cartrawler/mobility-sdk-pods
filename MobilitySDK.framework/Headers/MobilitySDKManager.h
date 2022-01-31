@@ -42,8 +42,11 @@
 - (void)showBackButton:(BOOL)showBackButton;
 - (BOOL)isNotificationOriginMobility:(NSDictionary *)userInfo;
 - (void)setAppLink:(NSURL *)url;
-- (void) killMobility;
-- (void)setUserData:(NSString*)firstName lastName:(NSString*)lastName email:(NSString*)email mobileNumber:(NSString*)mobileNumber;
-- (void) resetUserData;
+- (void)killMobility;
+- (void)setUserData:(NSString *)firstName lastName:(NSString *)lastName email:(NSString *)email mobileNumber:(NSString *)mobileNumber;
+- (void)resetUserData;
 - (void)showMobilityFromAppDeeplinkURL:(NSString *)encodedDeeplinkUrl viewController:(UIViewController *)viewController;
+- (void)setSession:(NSString *)session;
+- (void)updateRTLLayout:(BOOL)isRTL;
+- (void)reinitReactBundle;
 @end
