@@ -18,5 +18,7 @@
 @interface ExceptionHandler : NSObject
 + (void) releaseExceptionHold;
 - (void) setHandlerforNativeException;
+- (void) setSession:(NSString *)session;
+- (void) setLocale:(NSString *)incomingSession;
 @end
 
