@@ -39,6 +39,7 @@ typedef enum {
 
 + (instancetype)sharedManager;
 - (void) setLocale:(NSString *)locale;
+- (void) setTracking:(BOOL *)shouldSendTracking;
 - (void) setPushToken:(NSString *)pushToken;
 - (void) setUserToken:(NSString *)userToken;
 - (void) resetUserToken;

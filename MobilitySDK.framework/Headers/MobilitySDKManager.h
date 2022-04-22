@@ -25,7 +25,7 @@
 
 + (instancetype)sharedManager;
 - (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId;
-- (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId environment:(EnvironmentEnum)environment;
+- (BOOL)initWithOptions:(NSDictionary *)launchOptions partnerId:(NSString *)partnerId environment:(EnvironmentEnum)environment shouldSendTracking:(BOOL *)shouldSendTracking;
 - (void)closeSdkView;
 - (void)setLocale:(NSString *)locale;
 - (void)setPushToken:(NSString *)pushToken;
@@ -49,4 +49,5 @@
 - (void)setSession:(NSString *)session;
 - (void)updateRTLLayout:(BOOL)isRTL;
 - (void)reinitReactBundle;
+- (void)setTracking:(BOOL *)shouldSendTracking;
 @end

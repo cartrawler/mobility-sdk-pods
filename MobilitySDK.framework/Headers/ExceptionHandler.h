@@ -20,5 +20,7 @@
 - (void) setHandlerforNativeException;
 - (void) setSession:(NSString *)session;
 - (void) setLocale:(NSString *)incomingSession;
+- (void) setTracking:(BOOL *)incomingTrackingSetting;
+
 @end
 
