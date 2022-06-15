@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "Environments.h"
 #import "TripType.h"
+#import "PickupTimeType.h"
 #import "DeeplinkDirection.h"
 
 @class MobilityViewController;
@@ -47,6 +48,7 @@
 - (void)resetUserData;
 - (void)showMobilityFromAppDeeplinkURL:(NSString *)encodedDeeplinkUrl viewController:(UIViewController *)viewController;
 - (void)setSession:(NSString *)session;
+- (void)setPickupTimeType:(PickupTimeTypeEnum)pickupTimeType;
 - (void)updateRTLLayout:(BOOL)isRTL;
 - (void)reinitReactBundle;
 - (void)setTracking:(BOOL *)shouldSendTracking;
