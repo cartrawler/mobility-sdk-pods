@@ -1,0 +1,20 @@
+{
+  "development": {
+    "serverUrl": "https://neo-staging.cartrawler.com",
+    "websocketUrl": "wss://neo-staging.cartrawler.com/neows/v1/WS/order-events/",
+    "environment": "DEV",
+    "fcmSenderId": "525612144179"
+  },
+  "staging": {
+    "serverUrl": "https://neo-staging.cartrawler.com",
+    "websocketUrl": "wss://neo-staging.cartrawler.com/neows/v1/WS/order-events/",
+    "environment": "DEMO",
+    "fcmSenderId": "525612144179"
+  },
+  "production": {
+    "serverUrl": "https://neows.cartrawler.com",
+    "websocketUrl": "wss://neows.cartrawler.com/neows/v1/WS/order-events/",
+    "environment": "PROD",
+    "fcmSenderId": "525612144179"
+  }
+}
