@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/MobilitySDK-Swift.h</key>
 		<data>
-		MHzXPb7uRBdh+QIvRWpWiO4lTxk=
+		ojZDyDd2UUh+OD0gy9DZC6y8Ep0=
 		</data>
 		<key>Headers/MobilitySDK.h</key>
 		<data>
@@ -50,7 +50,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QhyUiLIJAOOHHHkIwohI7wpzo2U=
+		Uvxh2GBGb21S0iPKWK2nORFUWmE=
+		</data>
+		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		DwlvNbdM/GzyfMHTlAgQ2uCkLxs=
+		</data>
+		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		kRo/ufRgzhhmsVO3iia2XreS1Zc=
+		</data>
+		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		gEXKG/N2weHBsNNNw8trSa+SQ/w=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1142,7 +1154,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		O3q4+DszstRlDGS+fsDGAKZ5fLI=
+		lphuYBCmyUKdo6MauR9MUFmCLok=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -1210,11 +1222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MHzXPb7uRBdh+QIvRWpWiO4lTxk=
+			ojZDyDd2UUh+OD0gy9DZC6y8Ep0=
 			</data>
 			<key>hash2</key>
 			<data>
-			KuH5ukmIkEyJX2bWlojQU5XikOh5q+kPeXoe8mwhFJY=
+			ZtuIiM33smdH686QLf/tt6/AZfXVsfuJsJHSWWsaurY=
 			</data>
 		</dict>
 		<key>Headers/MobilitySDK.h</key>
@@ -1270,6 +1282,39 @@
 			<key>hash2</key>
 			<data>
 			tfKWm3Jl4CdE8hu7K8UvTMJmzLo2hw78ViIUMC1RtwA=
+			</data>
+		</dict>
+		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DwlvNbdM/GzyfMHTlAgQ2uCkLxs=
+			</data>
+			<key>hash2</key>
+			<data>
+			h4Qwi4NEp93beSJiH9LZ0J0uS3HHPr8yWD+4O++hYOc=
+			</data>
+		</dict>
+		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kRo/ufRgzhhmsVO3iia2XreS1Zc=
+			</data>
+			<key>hash2</key>
+			<data>
+			PViDkXJIm421fSO7F0lD5uavFqoWJGtHEyPmfp86IUY=
+			</data>
+		</dict>
+		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gEXKG/N2weHBsNNNw8trSa+SQ/w=
+			</data>
+			<key>hash2</key>
+			<data>
+			p0vfQtjgIbFaisFYYzE5Ny5XME6mI5mHXW8NYBRIUOo=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -4268,11 +4313,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O3q4+DszstRlDGS+fsDGAKZ5fLI=
+			lphuYBCmyUKdo6MauR9MUFmCLok=
 			</data>
 			<key>hash2</key>
 			<data>
-			zoekp4FX8HgkRdtvQYoD1LRFtrq1KzC1tvtHMJkqyt4=
+			T+A4zJ6PWJtryWWUHKVjSFFjyy+Cskgym2x0J0bPU0c=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>
