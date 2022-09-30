@@ -1,0 +1,147 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobilitySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vajage\/Desktop\/frontend\/app\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Flight.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 6,
+      "value": "\"MobilitySDK.Flight\""
+    },
+    {
+      "filePath": "\/Users\/vajage\/Desktop\/frontend\/app\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Persona.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 7,
+      "value": "\"MobilitySDK.Persona\""
+    },
+    {
+      "filePath": "\/Users\/vajage\/Desktop\/frontend\/app\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/UTM.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 3,
+      "value": "\"MobilitySDK.UTM\""
+    },
+    {
+      "filePath": "\/Users\/vajage\/Desktop\/frontend\/app\/neo-frontend\/sdk\/ios\/MobilitySDK\/Deeplink\/DeeplinkData.swift",
+      "kind": "Array",
+      "offset": 438,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vajage\/Desktop\/frontend\/app\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Passengers.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 10,
+      "value": "\"MobilitySDK.Passengers\""
+    }
+  ]
+}
