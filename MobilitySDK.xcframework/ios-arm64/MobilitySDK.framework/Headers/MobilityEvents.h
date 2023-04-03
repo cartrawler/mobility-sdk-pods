@@ -24,7 +24,7 @@
 @class Persona;
 
 @interface MobilityEvents: NSObject {
-    
+
 }
 
 typedef enum {
@@ -43,7 +43,7 @@ typedef enum {
 - (void) setPushToken:(NSString *)pushToken;
 - (void) setUserToken:(NSString *)userToken;
 - (void) resetUserToken;
-- (void) setDeeplinkDataWithType:(NSString *)type flights:(NSArray<Flight *> *)flights UTM:(UTM *)UTM persona:(Persona *)persona mobilityBookingId:(NSString *)mobilityBookingId surveyUrl:(NSString *)surveyUrl pickupTimeType:(NSString *)pickupTimeType;
+- (void) setDeeplinkDataWithType:(NSString *)type flights:(NSArray<Flight *> *)flights UTM:(UTM *)UTM persona:(Persona *)persona mobilityBookingId:(NSString *)mobilityBookingId surveyUrl:(NSString *)surveyUrl pickupTimeType:(NSString *)pickupTimeType pickupDateTime:(NSString *)pickupDateTime returnPickupDateTime:(NSString *)returnPickupDateTime pickupPlaceId:(NSString *)pickupPlaceId dropoffPlaceId:(NSString *)dropoffPlaceId;
 - (void) setAppLinkData:(NSString *)code state:(NSString *)state error:(NSString *)error;
 - (void) setUserData:(NSString *)firstName lastName:(NSString *)lastName email:(NSString *)email mobileNumber:(NSString *)mobileNumber;
 - (void) resetUserData;
