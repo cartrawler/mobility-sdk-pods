@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ak5EzDrHEiWSVl+ZTOJIZHPDJbM=
+		7SuVfNe24yuh30nz/S6r6/RRehU=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -1198,7 +1198,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		0SzsDWW4bdFNCQLXnEniUCSk8qQ=
+		/+RYk7vNGGKJRYvCqibRFj49f3A=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -4478,11 +4478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0SzsDWW4bdFNCQLXnEniUCSk8qQ=
+			/+RYk7vNGGKJRYvCqibRFj49f3A=
 			</data>
 			<key>hash2</key>
 			<data>
-			GtKXNiBPngggthckx+Y5ARWC9D1Q0THoNAKCcicRrnM=
+			DIdYext87FBkwFZqHmm3FLORp7T42htX/SaSU8iXMqc=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>
