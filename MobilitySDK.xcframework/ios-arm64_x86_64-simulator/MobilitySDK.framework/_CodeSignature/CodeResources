@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MobilityDelegate.h</key>
 		<data>
-		SjcKNgLXVrrOqjqB4ZzRHDPhukE=
+		s591b1AsTfQeKJiA7EHaTbyzJO0=
 		</data>
 		<key>Headers/MobilityEvents.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/MobilitySDK-Swift.h</key>
 		<data>
-		MXt4ZdQAr/X2KeyZFxiPzkuwVBI=
+		23t3w3eIZ3nk/3akC2kx/A28kGY=
 		</data>
 		<key>Headers/MobilitySDK.h</key>
 		<data>
@@ -50,15 +50,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BU79Q0sd9c2zTeqA9CHFVFpBp+c=
+		P944rjB0QFs0dXAGTGhAiALltN4=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		N7vCqfE2FGhFk/EjbzcuBzOiC00=
+		UehXMrykDybUSmnwJzQDZvkjaYY=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		nc+6BKjTg07mVtLqfd4eda/pc5g=
+		u23PUBDPwIuADFP3jrq4BjmBCDk=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,19 +66,19 @@
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		loRBrhNisRAv49G9OWw07Rcrdus=
+		u833KqUu2IEfKVqrkYyryFONj54=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+2aWhl8p58ghl+dTnAC+MglyQC8=
+		+lT7KHBpOjwgzIJ4m3XJMCOLLcU=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		loRBrhNisRAv49G9OWw07Rcrdus=
+		u833KqUu2IEfKVqrkYyryFONj54=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hOpO1eC7nwxfMZDaWM3ISvG4Hms=
+		zuZyVWsvswvrNLeEoOoE2V3CBFg=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -86,27 +86,31 @@
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bLdWPsH9XmchJnLeBovEGzKH8bM=
+		kx5BdOKs9i50+wIaX2Hy1TPnNb8=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		V3IuGbU6e8MiTXxXTG8ruDIeFzE=
+		ErM0lkXvbvn+QhcIvgbhQRVuOoM=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bLdWPsH9XmchJnLeBovEGzKH8bM=
+		kx5BdOKs9i50+wIaX2Hy1TPnNb8=
 		</data>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4OndpksZSpD6dIHJCVYllrgOwQQ=
+		yyVcha+3wV8arxjUeDET4gz1wY0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		XhcxtkA+ACn6F5bjqWuVINlvVvk=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		8pddTLBzjVna/WqB/rwZvEyDQc0=
+		</data>
 		<key>assets/config.json</key>
 		<data>
-		iScEDTFeAvXDGLxvP5AXtHnEoCU=
+		2DRLrBveHUNSWnNnsenKPpmoKJ4=
 		</data>
 		<key>assets/node_modules/css-color-keywords/colors.json</key>
 		<data>
@@ -160,7 +164,7 @@
 		<data>
 		E6Ppa9cO+gWA3uoT06d4sFIs0KU=
 		</data>
-		<key>assets/node_modules/mobility-config/config.json</key>
+		<key>assets/node_modules/product-config/mobility/sdk/config.json</key>
 		<data>
 		ZK+SU56joYjGiRKNIU83XCjISuQ=
 		</data>
@@ -1198,7 +1202,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		+3DIfeOu8O+c4FbnGPWeyiPxjVE=
+		5sAuwCjjiw1clAQrfw8OISmnT3w=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -1244,11 +1248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SjcKNgLXVrrOqjqB4ZzRHDPhukE=
+			s591b1AsTfQeKJiA7EHaTbyzJO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8u7wwPJZAyot6qnfPO+y5jBCfu5lSkGAicPihxCZ3mU=
+			zyktOobhfhrGwLUGoscnw5XXKQUT6x/71It9D3L+U9I=
 			</data>
 		</dict>
 		<key>Headers/MobilityEvents.h</key>
@@ -1266,11 +1270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MXt4ZdQAr/X2KeyZFxiPzkuwVBI=
+			23t3w3eIZ3nk/3akC2kx/A28kGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SSyYIxDTwz0vdx09+uWolPLtPuS3ewY38Fgu/M7QR/0=
+			G6svkshuUVCsc/DoVUBpMpHO1KG2hdc+bRt/+wLQ0hs=
 			</data>
 		</dict>
 		<key>Headers/MobilitySDK.h</key>
@@ -1332,22 +1336,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N7vCqfE2FGhFk/EjbzcuBzOiC00=
+			UehXMrykDybUSmnwJzQDZvkjaYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DqBWwfMeMbhqpA3cpAx4TTytlUC1mbysfViYqg/hhMo=
+			nibp+JWcQUmkfrz/ScFv866Xy8JHDkf3D62NyDRygyg=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nc+6BKjTg07mVtLqfd4eda/pc5g=
+			u23PUBDPwIuADFP3jrq4BjmBCDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			jxl8b/O7VCElCyjY12B92OtqDpOHlUZGI89sVre0c60=
+			+ivZQKZ84X9SYDizTFZ4dwUo1NlsiPM31tQvjUUg96M=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -1365,44 +1369,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			loRBrhNisRAv49G9OWw07Rcrdus=
+			u833KqUu2IEfKVqrkYyryFONj54=
 			</data>
 			<key>hash2</key>
 			<data>
-			dGN8Av3qpnWFNNHgNSYfWRxeGwoWm4yDk5soq04IjeU=
+			M/RM2G9tdRPrLhtHtqDJBzxx0K5GROaei/+e6m8PUJY=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+2aWhl8p58ghl+dTnAC+MglyQC8=
+			+lT7KHBpOjwgzIJ4m3XJMCOLLcU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3LPgx7c5qn4zc0IaUNGbqKwUsXHJB2s+YJkXCbwvGCI=
+			is7zX007s0X8Q+pPBy71RZVkesm/w8xMB+m1MnOuvhw=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			loRBrhNisRAv49G9OWw07Rcrdus=
+			u833KqUu2IEfKVqrkYyryFONj54=
 			</data>
 			<key>hash2</key>
 			<data>
-			dGN8Av3qpnWFNNHgNSYfWRxeGwoWm4yDk5soq04IjeU=
+			M/RM2G9tdRPrLhtHtqDJBzxx0K5GROaei/+e6m8PUJY=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hOpO1eC7nwxfMZDaWM3ISvG4Hms=
+			zuZyVWsvswvrNLeEoOoE2V3CBFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8xi82ZhwrZjKra1/3x66NNNzX2zqN3YoP5xsWH1WScw=
+			H0HmZzTuFRTWpcw1Jyj/tGIMWlG1ffmY+TIrzQsb5gk=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1420,44 +1424,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bLdWPsH9XmchJnLeBovEGzKH8bM=
+			kx5BdOKs9i50+wIaX2Hy1TPnNb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			deU3o1LTg4f0j+vMpGVZ+0NsRQGQbrV8rCVRn09spvg=
+			P4v87g+UKosiwg3e8dQ5a5hfq9D9k3cDDfDJilktQQ0=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V3IuGbU6e8MiTXxXTG8ruDIeFzE=
+			ErM0lkXvbvn+QhcIvgbhQRVuOoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zwwb9jlI/DhACCfTB3ZfTPB+8aclGY7KuIHJCqFntpE=
+			geWed/YkavgpyLUQhVugGZ7lkxOmmSX81fh0MNUo+FA=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bLdWPsH9XmchJnLeBovEGzKH8bM=
+			kx5BdOKs9i50+wIaX2Hy1TPnNb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			deU3o1LTg4f0j+vMpGVZ+0NsRQGQbrV8rCVRn09spvg=
+			P4v87g+UKosiwg3e8dQ5a5hfq9D9k3cDDfDJilktQQ0=
 			</data>
 		</dict>
 		<key>Modules/MobilitySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4OndpksZSpD6dIHJCVYllrgOwQQ=
+			yyVcha+3wV8arxjUeDET4gz1wY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QT8nXu72M1s38j8ESt7v8bOYFyjUUtPaaSm5YhP59Ho=
+			yPWUlwdSf/X2FUxlO4Df0AVEaxaeFVLIWYm4Nn5QO0o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1471,15 +1475,26 @@
 			hwWkxSgV0iUT1z5y3hWRRA/dlSnXxGAq7ybGyMVhWUA=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8pddTLBzjVna/WqB/rwZvEyDQc0=
+			</data>
+			<key>hash2</key>
+			<data>
+			DtuAird4M/STrLWZEEVlaE18VNMlUvZmuPehSOY8dLY=
+			</data>
+		</dict>
 		<key>assets/config.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iScEDTFeAvXDGLxvP5AXtHnEoCU=
+			2DRLrBveHUNSWnNnsenKPpmoKJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZYbRWsc9D6IIrlMu1syd/Wx7krBW/XrJ5Ibt4n1Aubw=
+			SXZv4PgtMyPz91KbKQ631L9b02zeVDsLwOAg2IY1J00=
 			</data>
 		</dict>
 		<key>assets/node_modules/css-color-keywords/colors.json</key>
@@ -1625,7 +1640,7 @@
 			FCK39JwcFjTQZPKHQlNjjJR6W5f/5IfA+u3pm0q7HXg=
 			</data>
 		</dict>
-		<key>assets/node_modules/mobility-config/config.json</key>
+		<key>assets/node_modules/product-config/mobility/sdk/config.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -4478,11 +4493,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+3DIfeOu8O+c4FbnGPWeyiPxjVE=
+			5sAuwCjjiw1clAQrfw8OISmnT3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			58Eq5knaW++vFTWMF5tUhBhsRXVWwuxxJEJYhST+vNQ=
+			AZpfWwtXmNWpXrnz9R3UOTaVsX+j+ETACn4q+WdqR5M=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>
