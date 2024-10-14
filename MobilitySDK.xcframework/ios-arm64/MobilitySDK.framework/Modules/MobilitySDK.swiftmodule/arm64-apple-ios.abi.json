@@ -109,35 +109,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend old\/sdk\/ios\/MobilitySDK\/Models\/Flight.swift",
+      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Flight.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 6,
       "value": "\"MobilitySDK.Flight\""
     },
     {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend old\/sdk\/ios\/MobilitySDK\/Models\/Persona.swift",
+      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Persona.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 7,
       "value": "\"MobilitySDK.Persona\""
     },
     {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend old\/sdk\/ios\/MobilitySDK\/Models\/UTM.swift",
+      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/UTM.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 3,
       "value": "\"MobilitySDK.UTM\""
     },
     {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend old\/sdk\/ios\/MobilitySDK\/Deeplink\/DeeplinkData.swift",
+      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Deeplink\/DeeplinkData.swift",
       "kind": "Array",
       "offset": 438,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend old\/sdk\/ios\/MobilitySDK\/Models\/Passengers.swift",
+      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Passengers.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 10,
