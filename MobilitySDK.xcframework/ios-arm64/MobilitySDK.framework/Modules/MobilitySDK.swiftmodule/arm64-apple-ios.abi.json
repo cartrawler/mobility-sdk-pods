@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MobilitySDK",
+    "printedName": "MobilitySDK",
     "children": [
       {
         "kind": "Import",
@@ -109,39 +109,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Flight.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 6,
-      "value": "\"MobilitySDK.Flight\""
-    },
-    {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Persona.swift",
-      "kind": "StringLiteral",
-      "offset": 187,
-      "length": 7,
-      "value": "\"MobilitySDK.Persona\""
-    },
-    {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/UTM.swift",
-      "kind": "StringLiteral",
-      "offset": 185,
-      "length": 3,
-      "value": "\"MobilitySDK.UTM\""
-    },
-    {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Deeplink\/DeeplinkData.swift",
+      "filePath": "\/Users\/rortiz\/iOSDev\/neo-frontend\/sdk\/ios\/MobilitySDK\/Deeplink\/DeeplinkData.swift",
       "kind": "Array",
       "offset": 438,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gpalumbo\/github\/neo-frontend\/sdk\/ios\/MobilitySDK\/Models\/Passengers.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 10,
-      "value": "\"MobilitySDK.Passengers\""
     }
   ]
 }
